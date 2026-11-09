@@ -59,7 +59,11 @@ As soluções são salvas em arquivos `sol-{nome_da_instancia}.dat` com o seguin
 ## Como Executar
 
 1.  Certifique-se de que o Python está instalado.
-2.  Coloque os arquivos de instância (`.dat`) na pasta `Ins/`.
+2.  Coloque os arquivos de instância (`.dat`) na pasta `Ins/`. Para usar as instâncias de exemplo incluídas no repositório (pasta `Modelos de Instancias/`):
+    ```bash
+    mkdir -p Ins
+    cp "Modelos de Instancias"/*.dat Ins/
+    ```
 3.  Execute o script principal:
     ```bash
     python rodar_todas.py
